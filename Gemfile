@@ -33,11 +33,11 @@ group :test do
   gem "ammeter"
   gem "database_cleaner"
   gem "formulaic"
-  gem "launchy"
+  gem "launchy", ">= 2.4.3"
   gem "poltergeist"
   gem "shoulda-matchers", "~> 2.8.0", require: false
   gem "timecop"
-  gem "webmock"
+  gem "webmock", ">= 1.22.1"
 end
 
 group :staging, :production do
