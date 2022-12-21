@@ -4,7 +4,7 @@ ruby "2.2.3"
 
 gemspec
 
-gem "administrate-field-image"
+gem "administrate-field-image", ">= 1.0.0"
 gem "delayed_job_active_record"
 gem "high_voltage"
 gem "markdown-rails"
@@ -13,7 +13,7 @@ gem "redcarpet"
 gem "unicorn"
 
 group :development do
-  gem "web-console", ">= 2.1.3"
+  gem "web-console", ">= 2.2.1"
 end
 
 group :development, :test do
