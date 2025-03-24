@@ -4,16 +4,16 @@ ruby "2.2.3"
 
 gemspec
 
-gem "administrate-field-image"
+gem "administrate-field-image", ">= 1.1.0"
 gem "delayed_job_active_record"
 gem "high_voltage"
-gem "markdown-rails"
+gem "markdown-rails", ">= 2.0.2"
 gem "pg"
 gem "redcarpet"
 gem "unicorn"
 
 group :development do
-  gem "web-console", ">= 2.1.3"
+  gem "web-console", ">= 3.0.0"
 end
 
 group :development, :test do
