@@ -4,10 +4,10 @@ ruby "2.2.3"
 
 gemspec
 
-gem "administrate-field-image"
-gem "delayed_job_active_record"
+gem "administrate-field-image", ">= 1.0.0"
+gem "delayed_job_active_record", ">= 4.1.7"
 gem "high_voltage"
-gem "markdown-rails"
+gem "markdown-rails", ">= 1.0.0"
 gem "pg"
 gem "redcarpet"
 gem "unicorn"
